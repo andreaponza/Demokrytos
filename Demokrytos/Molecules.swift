@@ -56,6 +56,19 @@ class Molecules {
     
     class func ptfeMolecule() -> SCNNode {
         let ptfeMolecule = SCNNode()
+        
+        // 2 Carbon
+        _ = nodeWithAtom(Atoms.carbonAtom(), molecule: ptfeMolecule, position: SCNVector3Make(-1.5, 0, 0)) //Carbon node 1
+        _ = nodeWithAtom(Atoms.carbonAtom(), molecule: ptfeMolecule, position: SCNVector3Make(+1.5, 0, 0)) //Carbon node 2
+        
+        // 4 Fluorine
+        _ = nodeWithAtom(Atoms.fluorineAtom(), molecule: ptfeMolecule, position: SCNVector3Make(-1.5, -2, 0)) //Fluorine node 1
+        _ = nodeWithAtom(Atoms.fluorineAtom(), molecule: ptfeMolecule, position: SCNVector3Make(-1.5, +2, 0)) //Fluorine node 2
+        _ = nodeWithAtom(Atoms.fluorineAtom(), molecule: ptfeMolecule, position: SCNVector3Make(+1.5, +0, -2)) //Fluorine node 3
+        _ = nodeWithAtom(Atoms.fluorineAtom(), molecule: ptfeMolecule, position: SCNVector3Make(+1.5, +0, +2)) //Fluorine node 4
+        
+        
+        
         return ptfeMolecule
     }
     

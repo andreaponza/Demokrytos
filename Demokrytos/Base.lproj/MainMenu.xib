@@ -670,6 +670,9 @@
                                     </menuItem>
                                     <menuItem title="Methane" id="b9T-jI-g8E"/>
                                     <menuItem title="Ethanol" id="mQh-GD-W1t"/>
+                                    <menuItem title="Polytetrafluoroethylene" id="3nM-ZI-Ft7">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                    </menuItem>
                                 </items>
                             </menu>
                         </popUpButtonCell>

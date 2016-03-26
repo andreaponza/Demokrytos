@@ -69,6 +69,9 @@ class GameViewController: NSViewController {
         case "Water":
             geometryLabel.stringValue = "Water\nH2O"
             geometryNode = Molecules.waterMolecule()
+        case "Polytetrafluoroethylene":
+            geometryLabel.stringValue = "Polytetrafluoroethylene (Teflon)\nC2F4"
+            geometryNode = Molecules.ptfeMolecule()
         default:
             print("No selection")
         }

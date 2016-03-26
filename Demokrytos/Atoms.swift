@@ -33,21 +33,21 @@ class Atoms {
     class func allAtoms() -> SCNNode {
         let atomsNode = SCNNode()
         
-        let carbonNode = SCNNode(geometry: carbonAtom())
-        carbonNode.position = SCNVector3Make(-6, 0, 0)
-        atomsNode.addChildNode(carbonNode)
-        
         let hydrogenNode = SCNNode(geometry: hydrogenAtom())
-        hydrogenNode.position = SCNVector3Make(-2, 0, 0)
+        hydrogenNode.position = SCNVector3Make(-6, 0, 0)
         atomsNode.addChildNode(hydrogenNode)
+        
+        let fluorineNode = SCNNode(geometry: fluorineAtom())
+        fluorineNode.position = SCNVector3Make(-2, 0, 0)
+        atomsNode.addChildNode(fluorineNode)
         
         let oxygenNode = SCNNode(geometry: oxygenAtom())
         oxygenNode.position = SCNVector3Make(+2, 0, 0)
         atomsNode.addChildNode(oxygenNode)
         
-        let fluorineNode = SCNNode(geometry: fluorineAtom())
-        fluorineNode.position = SCNVector3Make(+6, 0, 0)
-        atomsNode.addChildNode(fluorineNode)
+        let carbonNode = SCNNode(geometry: carbonAtom())
+        carbonNode.position = SCNVector3Make(+6, 0, 0)
+        atomsNode.addChildNode(carbonNode)
         
         return atomsNode
     }
