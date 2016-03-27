@@ -670,6 +670,9 @@
                                     <menuItem title="Helyum" id="jyj-e3-e6A">
                                         <modifierMask key="keyEquivalentModifierMask"/>
                                     </menuItem>
+                                    <menuItem title="Litium" id="KeO-xI-t6D">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                    </menuItem>
                                     <menuItem isSeparatorItem="YES" id="NSp-8c-VSV"/>
                                     <menuItem title="Atoms" id="cHC-dH-W0K"/>
                                     <menuItem title="Water" id="js7-bz-EUj">

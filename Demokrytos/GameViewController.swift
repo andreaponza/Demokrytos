@@ -61,6 +61,9 @@ class GameViewController: NSViewController {
         case "Helyum":
             geometryLabel.stringValue = "Helyum\n2 Proton (Red) 2 Electron (Blue) 2 Neutron (White)"
             geometryNode = Particles.helyum()
+        case "Litium":
+            geometryLabel.stringValue = "Litium\n3 Proton (Red) 3 Electron (Blue) 3 Neutron (White)"
+            geometryNode = Particles.litium()
         case "Atoms":
             geometryLabel.stringValue = "Atoms\n"
             geometryNode = Atoms.allAtoms()
