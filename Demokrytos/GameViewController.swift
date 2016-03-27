@@ -21,9 +21,7 @@ class GameViewController: NSViewController {
         
 
         
-        geometryLabel.stringValue = "Atoms\n"
-        geometryNode = Atoms.allAtoms()
-        scene.rootNode.addChildNode(geometryNode)
+        self.hydrogen()
         
         
         // set camera let cameraNode = SCNNode()
@@ -47,7 +45,8 @@ class GameViewController: NSViewController {
         
         // show statistics such as fps and timing information
         self.gameView!.showsStatistics = false
-
+        
+        self.gameView!.scene!.rootNode.addChildNode(geometryNode)
     }
     
 // Change view
@@ -57,6 +56,11 @@ class GameViewController: NSViewController {
         let molecule:String! = sender.titleOfSelectedItem
         
         switch molecule{
+        case "Hydrogen":
+            hydrogen()
+        case "Helyum":
+            geometryLabel.stringValue = "Helyum\n2 Proton (Red) 2 Electron (Blue) 2 Neutron (White)"
+            geometryNode = Particles.helyum()
         case "Atoms":
             geometryLabel.stringValue = "Atoms\n"
             geometryNode = Atoms.allAtoms()
@@ -77,6 +81,11 @@ class GameViewController: NSViewController {
         }
         
         self.gameView!.scene!.rootNode.addChildNode(geometryNode)
+    }
+    
+    func hydrogen(){
+        geometryLabel.stringValue = "Hydrogen\n1 Proton (Red) 1 Electron (Blue)"
+        geometryNode = Particles.hydrogen()
     }
 }
 

@@ -17,4 +17,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Insert code here to initialize your application
     }
     
+    func applicationShouldTerminateAfterLastWindowClosed(sender: NSApplication) -> Bool {
+        // Quit app on window close
+        return true
+    }
+    
 }

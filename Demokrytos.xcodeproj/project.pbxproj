@@ -17,6 +17,7 @@
 		6509D2D01CA5907F0037A57E /* DemokrytosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6509D2CF1CA5907F0037A57E /* DemokrytosUITests.swift */; };
 		65118A731CA590B900317545 /* Molecules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65118A711CA590B900317545 /* Molecules.swift */; };
 		65118A741CA590B900317545 /* Atoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65118A721CA590B900317545 /* Atoms.swift */; };
+		65FB12331CA7B4DB007E897A /* Particles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FB12321CA7B4DB007E897A /* Particles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		6509D2D11CA5907F0037A57E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65118A711CA590B900317545 /* Molecules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Molecules.swift; sourceTree = "<group>"; };
 		65118A721CA590B900317545 /* Atoms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Atoms.swift; sourceTree = "<group>"; };
+		65FB12321CA7B4DB007E897A /* Particles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Particles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				6509D2B21CA5907F0037A57E /* GameViewController.swift */,
 				65118A711CA590B900317545 /* Molecules.swift */,
 				65118A721CA590B900317545 /* Atoms.swift */,
+				65FB12321CA7B4DB007E897A /* Particles.swift */,
 				6509D2B41CA5907F0037A57E /* art.scnassets */,
 				6509D2B61CA5907F0037A57E /* Assets.xcassets */,
 				6509D2B81CA5907F0037A57E /* MainMenu.xib */,
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6509D2B11CA5907F0037A57E /* GameView.swift in Sources */,
+				65FB12331CA7B4DB007E897A /* Particles.swift in Sources */,
 				6509D2B31CA5907F0037A57E /* GameViewController.swift in Sources */,
 				6509D2AF1CA5907F0037A57E /* AppDelegate.swift in Sources */,
 				65118A731CA590B900317545 /* Molecules.swift in Sources */,

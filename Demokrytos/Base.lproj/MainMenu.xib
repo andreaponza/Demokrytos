@@ -659,12 +659,19 @@
                 <subviews>
                     <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X3O-l4-yhv">
                         <rect key="frame" x="18" y="430" width="123" height="26"/>
-                        <popUpButtonCell key="cell" type="push" title="Atoms" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="cHC-dH-W0K" id="PM7-Vi-qKi">
+                        <popUpButtonCell key="cell" type="push" title="Hydrogen" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="Iml-dr-nfz" id="PM7-Vi-qKi">
                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="menu"/>
                             <menu key="menu" id="4Jk-by-aIb">
                                 <items>
-                                    <menuItem title="Atoms" state="on" id="cHC-dH-W0K"/>
+                                    <menuItem title="Hydrogen" state="on" id="Iml-dr-nfz">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                    </menuItem>
+                                    <menuItem title="Helyum" id="jyj-e3-e6A">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                    </menuItem>
+                                    <menuItem isSeparatorItem="YES" id="NSp-8c-VSV"/>
+                                    <menuItem title="Atoms" id="cHC-dH-W0K"/>
                                     <menuItem title="Water" id="js7-bz-EUj">
                                         <modifierMask key="keyEquivalentModifierMask"/>
                                     </menuItem>
